@@ -1,2 +1,38 @@
-body { color: purple }
-body { background-color: #d8da3d }
+* {
+    box-sizing: border-box;
+  }
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Chivo Mono', monospace;
+           }
+
+      .container {
+        max-width: 1440px;
+        margin:0 auto;
+      }
+      .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .nav-list {
+        list-style: none;
+      }
+      .nav-link {
+        padding: 0 20px;
+        line-height: 50px;
+      }
+      .main-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .section {
+        width: 50%;
+      }
+      
+      
+      
+    
